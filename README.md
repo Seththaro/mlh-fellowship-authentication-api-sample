@@ -1,6 +1,6 @@
 ## Overview
 
-A production-grade jersey authentication API that combines CLIP image embeddings, 
+A jersey authentication API that combines CLIP image embeddings, 
 Supabase pgvector similarity search, and OpenAI GPT-4o Vision to determine whether 
 a submitted jersey is authentic or counterfeit.
 
