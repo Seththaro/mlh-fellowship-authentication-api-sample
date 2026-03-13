@@ -1,0 +1,27 @@
+# Jersey Authentication Project - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Deep Learning Framework
+torch>=2.0.0                                    # PyTorch: Powers both CLIP embeddings and LLaVA VLM
+torchvision>=0.15.0                             # Vision utilities for PyTorch (image preprocessing)
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Web Framework
+fastapi==0.109.0                                # REST API framework for /authenticate endpoint
+uvicorn[standard]==0.27.0                       # ASGI web server that runs FastAPI
+python-multipart==0.0.6                         # Enables file upload handling (multipart/form-data)
+
+# Image Processing & Embeddings
+Pillow==10.2.0                                  # Opens and processes images (JPG, PNG, etc.)
+sentence-transformers                           # CLIP model: converts images to 512D vectors
+
+# VLM Dependencies (OpenAI Vision API)
+openai                                 # OpenAI API client for GPT-4 Vision analysis
+
+# Database & Storage
+supabase                                        # Supabase client: connects to vector database and storage
+python-dotenv==1.0.0                            # Loads environment variables from .env file
+
+# Utilities
+numpy<2.0.0                                     # Array operations (required by ML libraries)
+requests                                        # HTTP client for testing API endpoints
