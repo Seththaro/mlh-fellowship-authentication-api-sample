@@ -66,15 +66,12 @@ Server will start at: http://127.0.0.1:8000
 
 ## Key Features
 
-✅ **Fast Vector Search**: 1-2 seconds per image with parallel processing
-✅ **Cloud-Based VLM**: OpenAI - no local GPU required
-✅ **Three Analysis Modes**:
-   - Vector-only (fast, free)
-   - Comprehensive VLM (all images analyzed together)
-   - Paired VLM (side-by-side comparisons + final analysis) NEW
-✅ **Batch Processing**: Handle up to 10 images at once
-✅ **Side-by-Side Comparison**: Compare each user image to best reference match
-✅ **Human-Like Analysis**: Natural language explanations without technical disclaimers
-✅ **Brief + Comprehensive**: Get both per-image feedback and overall synthesis
-✅ **Reference URLs**: Direct links to matched reference images
-✅ **Weighted Verdict**: Combines VLM and vector similarity intelligently 
+- **Fast Vector Search**: 1-2 seconds per image with parallel processing
+- **Cloud-Based VLM**: OpenAI - no local GPU required
+- **Three Analysis Modes**: Vector-only (fast, free), Comprehensive VLM (all images analyzed together), Paired VLM (side-by-side comparisons + final analysis) NEW
+- **Batch Processing**: Handle up to 10 images at once
+- **Side-by-Side Comparison**: Compare each user image to best reference match
+- **Human-Like Analysis**: Natural language explanations without technical disclaimers
+- **Brief + Comprehensive**: Get both per-image feedback and overall synthesis
+- **Reference URLs**: Direct links to matched reference images
+- **Weighted Verdict**: Combines VLM and vector similarity intelligently 
